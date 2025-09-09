@@ -1,8 +1,10 @@
-# 本地书签管理器 | [English](./README-en.md)
+# 本地书签管理器 | [English](./README.md)
 
 **_更好地管理您的浏览器书签_**
 
 一个功能强大的浏览器扩展，帮助您高效管理书签、历史记录和标签组。
+
+> [chromewebstore](https://chromewebstore.google.com/detail/local-bookmark-manager/dlnccdfdalopgfbjbmgjlmehkjohpgng) 
 
 ## 功能特点
 
@@ -99,7 +101,7 @@ pnpm run zip
 
 ## 隐私政策
 
-本扩展尊重用户隐私，所有数据均存储在本地，不会上传到任何服务器。详细信息请查看[隐私政策](https://github.com/pingnas/Local-bookmark-manager/blob/main/privacy-policy-zh.md)。
+本扩展尊重用户隐私，所有数据均存储在本地，不会上传到任何服务器。详细信息请查看[隐私政策](/privacy-policy-zh.md)。
 
 ## 许可证
 

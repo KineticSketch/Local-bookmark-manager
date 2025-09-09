@@ -1,8 +1,10 @@
-# Local Bookmark Manager
+# Local Bookmark Manager  | [Chinese](./README-zh.md)
 
 **_Better management of your bookmarks_**
 
 A powerful browser extension that helps you efficiently manage bookmarks, browsing history, and tab groups.
+
+> [chromewebstore](https://chromewebstore.google.com/detail/local-bookmark-manager/dlnccdfdalopgfbjbmgjlmehkjohpgng) 
 
 ## Features
 
@@ -99,7 +101,7 @@ Contributions are welcome! Feel free to contribute code, report issues, or sugge
 
 ## Privacy Policy
 
-This extension respects user privacy. All data is stored locally and is not uploaded to any servers. For detailed information, please see the [Privacy Policy](https://github.com/pingnas/Local-bookmark-manager/blob/main/privacy-policy.md).
+This extension respects user privacy. All data is stored locally and is not uploaded to any servers. For detailed information, please see the [Privacy Policy](/privacy-policy.md).
 
 ## License
 
