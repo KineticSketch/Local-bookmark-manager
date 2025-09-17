@@ -22,8 +22,8 @@
     "@opentiny/vue": "^3.26.0",
     "@vueuse/core": "^13.9.0",
     "@wxt-dev/i18n": "^0.2.4",
-    "ag-grid-community": "^34.1.2",
-    "ag-grid-vue3": "^34.1.2",
+    "ag-grid-community": "^34.2.0",
+    "ag-grid-vue3": "^34.2.0",
     "dayjs": "^1.11.18",
     "dexie": "^4.2.0",
     "es-toolkit": "^1.39.10",
@@ -39,13 +39,13 @@
     "vue-icons-plus": "^0.1.8"
   },
   "devDependencies": {
-    "@types/chrome": "^0.1.9",
+    "@types/chrome": "^0.1.12",
     "@vitejs/plugin-vue-jsx": "5.1.1",
     "@wxt-dev/auto-icons": "^1.1.0",
     "@wxt-dev/module-vue": "1.0.3",
     "typescript": "5.9.2",
     "vite-plugin-remove-console": "^2.2.0",
-    "vue-tsc": "3.0.6",
+    "vue-tsc": "3.0.7",
     "wxt": "0.20.11"
   }
 }
