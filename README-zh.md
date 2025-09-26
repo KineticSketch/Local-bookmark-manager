@@ -17,7 +17,8 @@
 - **全局搜索**：快速搜索书签和历史记录
 
 ## 截图展示
-![书签管理界面](img/README/image.png)
+
+![alt text](img/README/1.gif)
 
 ## 使用方法
 

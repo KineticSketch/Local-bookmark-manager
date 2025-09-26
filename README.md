@@ -17,7 +17,8 @@ A powerful browser extension that helps you efficiently manage bookmarks, browsi
 - **Global Search**: Quickly search bookmarks and browsing history
 
 ## Screenshots
-![Bookmark Management Interface](img/README/image.png)
+
+![alt text](img/README/1.gif)
 
 ## Usage Guide
 
