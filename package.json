@@ -25,8 +25,8 @@
     "ag-grid-community": "^34.2.0",
     "ag-grid-vue3": "^34.2.0",
     "dayjs": "^1.11.18",
-    "dexie": "^4.2.0",
-    "es-toolkit": "^1.39.10",
+    "dexie": "^4.2.1",
+    "es-toolkit": "^1.40.0",
     "lottie-web": "^5.13.0",
     "miao-lang": "^1.0.5",
     "normalize.css": "^8.0.1",
@@ -39,13 +39,13 @@
     "vue-icons-plus": "^0.1.8"
   },
   "devDependencies": {
-    "@types/chrome": "^0.1.12",
+    "@types/chrome": "^0.1.23",
     "@vitejs/plugin-vue-jsx": "5.1.1",
     "@wxt-dev/auto-icons": "^1.1.0",
     "@wxt-dev/module-vue": "1.0.3",
-    "typescript": "5.9.2",
+    "typescript": "5.9.3",
     "vite-plugin-remove-console": "^2.2.0",
-    "vue-tsc": "3.0.8",
+    "vue-tsc": "3.1.1",
     "wxt": "0.20.11"
   }
 }
