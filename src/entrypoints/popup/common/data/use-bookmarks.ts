@@ -110,10 +110,12 @@ export const useBookmarks = () => {
         Object.values(bookmarks_group.value).slice(0, -1).forEach(x => remove(x.item));
     }
     const left = computed(() => {
-        return pick(bookmarks_group.value, ['1', '2']);
+        // 1,2 正式版
+        // 5，6 dev chrome
+        return pick(bookmarks_group.value, ['1', '2', '5', '6']);
     })
     const right = computed(() => {
-        return omit(bookmarks_group.value, ['1', '2']);
+        return omit(bookmarks_group.value, ['1', '2', '5', '6']);
     })
     return { bookmarks, bookmarks_group, openAllBookmarks, delEmptyBookmarks, left, right }
 }
