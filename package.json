@@ -2,7 +2,7 @@
   "name": "wxt-vue-starter",
   "description": "Local bookmark manager",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/pingnas/Local-bookmark-manager"
