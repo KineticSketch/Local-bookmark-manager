@@ -110,12 +110,33 @@ export const useBookmarks = () => {
         Object.values(bookmarks_group.value).slice(0, -1).forEach(x => remove(x.item));
     }
     const left = computed(() => {
-        // 1,2 正式版
-        // 5，6 dev chrome
-        return pick(bookmarks_group.value, ['1', '2', '5', '6']);
+
+        const [firstTwo, others] = splitObject(bookmarks_group.value, 2);
+        return firstTwo;
     })
     const right = computed(() => {
-        return omit(bookmarks_group.value, ['1', '2', '5', '6']);
+        const [firstTwo, others] = splitObject(bookmarks_group.value, 2);
+        return others;
     })
     return { bookmarks, bookmarks_group, openAllBookmarks, delEmptyBookmarks, left, right }
+}
+
+/**
+ * 将对象分割为前 N 个键值对和其余键值对。
+ * @param {object} obj - 原始对象
+ * @param {number} N - 要提取的前 N 个键值对数量
+ * @returns {[object, object]} - [前 N 个对象, 剩余对象]
+ */
+const splitObject = (obj: { [k: string]: any }, N: number) => {
+    const entries = Object.entries(obj);
+
+    // 使用 slice() 分割数组
+    const firstNEntries = entries.slice(0, N);
+    const restEntries = entries.slice(N);
+
+    // 使用 Object.fromEntries() 转换回对象
+    const firstNObject = Object.fromEntries(firstNEntries);
+    const restObject = Object.fromEntries(restEntries);
+
+    return [firstNObject, restObject];
 }
