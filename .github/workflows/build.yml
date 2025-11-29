@@ -34,7 +34,6 @@ jobs:
       - name: Upload ZIP to GitHub Release
         uses: svenstaro/upload-release-action@v2
         with:
-          body_path: release-content.md
           repo_token: ${{ secrets.TOKEN }}
           file: .output/chrome-mv3/build.zip
           asset_name: LocalBookmarkManager-${{ github.ref_name }}.zip
