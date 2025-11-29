@@ -2,7 +2,7 @@
   "name": "wxt-vue-starter",
   "description": "Local bookmark manager",
   "license": "MIT",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/pingnas/Local-bookmark-manager"
@@ -20,7 +20,7 @@
   "dependencies": {
     "@imengyu/vue3-context-menu": "^1.5.2",
     "@opentiny/vue": "^3.27.0",
-    "@vueuse/core": "^14.0.0",
+    "@vueuse/core": "^14.1.0",
     "@wxt-dev/i18n": "^0.2.4",
     "ag-grid-community": "^34.3.1",
     "ag-grid-vue3": "^34.3.1",
